@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "64a81e2818f400e77c34f281"
+  },
+  "CategoriaID": "1",
+  "CategoriaNombre": "Beverages",
+  "Descripcion": "Soft drinks, coffees, teas, beers, and ales",
+  "Imagen": "Beverages.jpg"
+},{
+  "_id": {
+    "$oid": "64a81eb718f400e77c34f282"
+  },
+  "CategoriaID": "2",
+  "CategoriaNombre": "Condiments",
+  "Descripcion": "Sweet and savory sauces, relishes, spreads, and seasonings",
+  "Imagen": "Condiments.jpg"
+},{
+  "_id": {
+    "$oid": "64a81eb718f400e77c34f283"
+  },
+  "CategoriaID": "3",
+  "CategoriaNombre": "Confections",
+  "Descripcion": "Desserts, candies, and sweet breads",
+  "Imagen": "Confections.jpg"
+},{
+  "_id": {
+    "$oid": "64a81eb718f400e77c34f284"
+  },
+  "CategoriaID": "4",
+  "CategoriaNombre": "Dairy Productos",
+  "Descripcion": "Cheeses",
+  "Imagen": "DairyProductos.jpg"
+},{
+  "_id": {
+    "$oid": "64a81eb718f400e77c34f285"
+  },
+  "CategoriaID": "5",
+  "CategoriaNombre": "Cereals",
+  "Descripcion": "Breads, crackers, pasta, and cereal",
+  "Imagen": "cereals.jpg"
+},{
+  "_id": {
+    "$oid": "64a81eb718f400e77c34f286"
+  },
+  "CategoriaID": "6",
+  "CategoriaNombre": "Meat",
+  "Descripcion": "Prepared meats",
+  "Imagen": "Meat.jpg"
+},{
+  "_id": {
+    "$oid": "64a81eb718f400e77c34f287"
+  },
+  "CategoriaID": "7",
+  "CategoriaNombre": "Produce",
+  "Descripcion": "Dried fruit and bean curd",
+  "Imagen": "produce.jpg"
+}]

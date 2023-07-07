@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "64a816f718f400e77c34f27a"
+  },
+  "nombre": "Gabriel García Márquez",
+  "nacionalidad": "Colombiana",
+  "fecha_nacimiento": "1927-03-06",
+  "libros_destacados": [
+    "Cien años de soledad",
+    "El amor en los tiempos del cólera"
+  ],
+  "premios": [
+    "Premio Nobel de Literatura"
+  ]
+},{
+  "_id": {
+    "$oid": "64a816f718f400e77c34f27b"
+  },
+  "nombre": "J.K. Rowling",
+  "nacionalidad": "Británica",
+  "fecha_nacimiento": "1965-07-31",
+  "libros_destacados": [
+    "Harry Potter y la piedra filosofal",
+    "Harry Potter y la cámara secreta"
+  ],
+  "premios": [
+    "Premio Hans Christian Andersen"
+  ]
+},{
+  "_id": {
+    "$oid": "64a816f718f400e77c34f27c"
+  },
+  "nombre": "Ernest Hemingway",
+  "nacionalidad": "Estadounidense",
+  "fecha_nacimiento": "1899-07-21",
+  "fecha_defuncion": "1961-07-02",
+  "libros_destacados": [
+    "El viejo y el mar",
+    "Adiós a las armas"
+  ],
+  "premios": [
+    "Premio Nobel de Literatura"
+  ]
+},{
+  "_id": {
+    "$oid": "64a816f718f400e77c34f27d"
+  },
+  "nombre": "Jane Austen",
+  "nacionalidad": "Británica",
+  "fecha_nacimiento": "1775-12-16",
+  "fecha_defuncion": "1817-07-18",
+  "libros_destacados": [
+    "Orgullo y prejuicio",
+    "Sentido y sensibilidad"
+  ],
+  "genero": "Novela romántica"
+},{
+  "_id": {
+    "$oid": "64a816f718f400e77c34f27e"
+  },
+  "nombre": "Haruki Murakami",
+  "nacionalidad": "Japonesa",
+  "fecha_nacimiento": "1949-01-12",
+  "libros_destacados": [
+    "Tokio blues",
+    "1Q84"
+  ],
+  "premios": [
+    "Premio Franz Kafka"
+  ]
+},{
+  "_id": {
+    "$oid": "64a816f718f400e77c34f27f"
+  },
+  "nombre": "Isabel Allende",
+  "nacionalidad": "Chilena",
+  "fecha_nacimiento": "1942-08-02",
+  "libros_destacados": [
+    "La casa de los espíritus",
+    "Eva Luna"
+  ],
+  "premios": [
+    "Premio Nacional de Literatura de Chile"
+  ]
+},{
+  "_id": {
+    "$oid": "64a816f718f400e77c34f280"
+  },
+  "nombre": "Albert Camus",
+  "nacionalidad": "Francés",
+  "fecha_nacimiento": "1913-11-07",
+  "fecha_defuncion": "1960-01-04",
+  "libros_destacados": [
+    "El extranjero",
+    "La peste"
+  ],
+  "premios": [
+    "Premio Nobel de Literatura"
+  ]
+}]

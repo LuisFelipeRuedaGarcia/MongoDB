@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "64a8113a18f400e77c34f270"
+  },
+  "titulo": "El gran Gatsby",
+  "autor": "F. Scott Fitzgerald",
+  "anio_publicacion": 1925,
+  "genero": "Novela",
+  "editorial": "Charles Scribner's Sons"
+},{
+  "_id": {
+    "$oid": "64a8133218f400e77c34f271"
+  },
+  "titulo": "1984",
+  "autor": "George Orwell",
+  "anio_publicacion": 1949,
+  "genero": "Ciencia ficción",
+  "editorial": "Secker & Warburg"
+},{
+  "_id": {
+    "$oid": "64a8133218f400e77c34f272"
+  },
+  "titulo": "Cien años de soledad",
+  "autor": "Gabriel García Márquez",
+  "anio_publicacion": 1967,
+  "genero": "Realismo mágico",
+  "editorial": "Editorial Sudamericana"
+}]

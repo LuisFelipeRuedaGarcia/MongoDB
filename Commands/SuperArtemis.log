@@ -1,0 +1,28 @@
+/
+use SuperArtemis;
+show dbs;
+db.Categorias.insertOne({"CategoriaID":"1","CategoriaNombre":"Beverages","Descripcion":"Soft drinks, coffees, teas, beers, and ales","Imagen":"Beverages.jpg"});
+
+db.Categorias.insertMany([
+{"CategoriaID":"2","CategoriaNombre":"Condiments","Descripcion":"Sweet and savory sauces, relishes, spreads, and seasonings","Imagen":"Condiments.jpg"},
+{"CategoriaID":"3","CategoriaNombre":"Confections","Descripcion":"Desserts, candies, and sweet breads","Imagen":"Confections.jpg"},
+{"CategoriaID":"4","CategoriaNombre":"Dairy Productos","Descripcion":"Cheeses","Imagen":"DairyProductos.jpg"},
+{"CategoriaID":"5","CategoriaNombre":"Cereals","Descripcion":"Breads, crackers, pasta, and cereal","Imagen":"cereals.jpg"},
+{"CategoriaID":"6","CategoriaNombre":"Meat","Descripcion":"Prepared meats","Imagen":"Meat.jpg"},
+{"CategoriaID":"7","CategoriaNombre":"Produce","Descripcion":"Dried fruit and bean curd","Imagen":"produce.jpg"}
+]);
+
+db.Clientes.insertOne({"ClienteID":"ALFKI","Compania":"Alfreds Futterkiste","Contacto":"Maria Anders","Titulo":"Sales Representative","Direccion":"Obere Str. 57","Ciudad":"Berlin","Regiones":"","CodigoPostal":"12209","Pais":"Germany","Telefono":"030-0074321","Fax":"030-0076545"});
+
+db.Clientes.insertMany([
+{"ClienteID":"ANATR","Compania":"Ana Trujillo Emparedados y helados","Contacto":"Ana Trujillo","Titulo":"Owner","Direccion":"Avda. de la Constitución 2222","Ciudad":"México D.F.","Regiones":"","CodigoPostal":"05021","Pais":"Mexico","Telefono":"(5) 555-4729","Fax":"(5) 555-3745"},
+{"ClienteID":"ANTON","Compania":"Antonio Moreno Taquería","Contacto":"Antonio Moreno","Titulo":"Owner","Direccion":"Mataderos  2312","Ciudad":"México D.F.","Regiones":"","CodigoPostal":"05023","Pais":"Mexico","Telefono":"(5) 555-3932","Fax":""},
+{"ClienteID":"AROUT","Compania":"Around the Horn","Contacto":"Thomas Hardy","Titulo":"Sales Representative","Direccion":"120 Hanover Sq.","Ciudad":"London","Regiones":"","CodigoPostal":"WA1 1DP","Pais":"UK","Telefono":"(171) 555-7788","Fax":"(171) 555-6750"},
+{"ClienteID":"BERGS","Compania":"Berglunds snabbkóp","Contacto":"Christina Berglund","Titulo":"Order Administrator","Direccion":"Berguvsvágen  8","Ciudad":"Luleá","Regiones":"","CodigoPostal":"S-958 22","Pais":"Sweden","Telefono":"0921-12 34 65","Fax":"0921-12 34 67"},
+{"ClienteID":"BLAUS","Compania":"Blauer See Delikatessen","Contacto":"Hanna Moos","Titulo":"Sales Representative","Direccion":"Forsterstr. 57","Ciudad":"Mannheim","Regiones":"","CodigoPostal":"68306","Pais":"Germany","Telefono":"0621-08460","Fax":"0621-08924"},
+{"ClienteID":"BLONP","Compania":"Blondesddsl páre et fils","Contacto":"Frádárique Citeaux","Titulo":"Marketing Manager","Direccion":"24, place Kláber","Ciudad":"Strasbourg","Regiones":"","CodigoPostal":"67000","Pais":"France","Telefono":"88.60.15.31","Fax":"88.60.15.32"}
+]);
+
+db.Clientes.find();
+
+
