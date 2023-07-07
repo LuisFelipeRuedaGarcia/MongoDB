@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "64a87e0a635e470a662e68cf"
+  },
+  "ProductoID": "1",
+  "ProductoNombre": "Chai",
+  "ProveedorID": "1",
+  "CategoriaID": "1",
+  "CantidadPorUnidad": "10 boxes x 20 bags",
+  "PrecioUnitario": "18",
+  "UnidadesStock": "39",
+  "UnidadesPedidas": "0",
+  "NivelReorden": "10",
+  "Discontinuado": "0"
+},{
+  "_id": {
+    "$oid": "64a87ed4635e470a662e68d0"
+  },
+  "ProductoID": "2",
+  "ProductoNombre": "Chang",
+  "ProveedorID": "1",
+  "CategoriaID": "1",
+  "CantidadPorUnidad": "24 - 12 oz bottles",
+  "PrecioUnitario": "19",
+  "UnidadesStock": "17",
+  "UnidadesPedidas": "40",
+  "NivelReorden": "25",
+  "Discontinuado": "0"
+},{
+  "_id": {
+    "$oid": "64a87ed4635e470a662e68d1"
+  },
+  "ProductoID": "3",
+  "ProductoNombre": "Aniseed Syrup",
+  "ProveedorID": "1",
+  "CategoriaID": "2",
+  "CantidadPorUnidad": "12 - 550 ml bottles",
+  "PrecioUnitario": "10",
+  "UnidadesStock": "13",
+  "UnidadesPedidas": "70",
+  "NivelReorden": "25",
+  "Discontinuado": "0"
+},{
+  "_id": {
+    "$oid": "64a87ed4635e470a662e68d2"
+  },
+  "ProductoID": "4",
+  "ProductoNombre": "Chef Anton's Cajun Seasoning",
+  "ProveedorID": "2",
+  "CategoriaID": "2",
+  "CantidadPorUnidad": "48 - 6 oz jars",
+  "PrecioUnitario": "22",
+  "UnidadesStock": "53",
+  "UnidadesPedidas": "0",
+  "NivelReorden": "0",
+  "Discontinuado": "0"
+},{
+  "_id": {
+    "$oid": "64a87ed4635e470a662e68d3"
+  },
+  "ProductoID": "5",
+  "ProductoNombre": "Chef Anton's Gumbo Mix",
+  "ProveedorID": "2",
+  "CategoriaID": "2",
+  "CantidadPorUnidad": "36 boxes",
+  "PrecioUnitario": "21.35",
+  "UnidadesStock": "0",
+  "UnidadesPedidas": "0",
+  "NivelReorden": "0",
+  "Discontinuado": "0"
+},{
+  "_id": {
+    "$oid": "64a87ed4635e470a662e68d4"
+  },
+  "ProductoID": "6",
+  "ProductoNombre": "Grandma's Boysenberry Spread",
+  "ProveedorID": "3",
+  "CategoriaID": "2",
+  "CantidadPorUnidad": "12 - 8 oz jars",
+  "PrecioUnitario": "25",
+  "UnidadesStock": "120",
+  "UnidadesPedidas": "0",
+  "NivelReorden": "25",
+  "Discontinuado": "0"
+},{
+  "_id": {
+    "$oid": "64a87ed4635e470a662e68d5"
+  },
+  "ProductoID": "7",
+  "ProductoNombre": "Uncle Bob's Organic Dried Pears",
+  "ProveedorID": "3",
+  "CategoriaID": "7",
+  "CantidadPorUnidad": "12 - 1 lb pkgs.",
+  "PrecioUnitario": "30",
+  "UnidadesStock": "15",
+  "UnidadesPedidas": "0",
+  "NivelReorden": "10",
+  "Discontinuado": "0"
+}]

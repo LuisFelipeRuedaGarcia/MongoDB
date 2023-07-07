@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "64a87b9b635e470a662e68c8"
+  },
+  "FacturaID": "10248",
+  "ClienteID": "VINET",
+  "EmpleadoID": "5",
+  "FechaFactura": "1996-07-04 00:00:00",
+  "FechaRegistro": "1996-08-01 00:00:00",
+  "FechaEnvio": "1996-07-16 00:00:00",
+  "EnvioVia": "3",
+  "Transporte": "32.38",
+  "NombreEnvio": "Vins et alcools Chevalier",
+  "DireccionEnvio": "59 rue de l'Abbaye",
+  "CiudadEnvio": "Reims",
+  "RegionEnvio": "",
+  "CodigoPostalEnvio": "51100",
+  "PaisEnvio": "France"
+},{
+  "_id": {
+    "$oid": "64a87c15635e470a662e68c9"
+  },
+  "FacturaID": "10249",
+  "ClienteID": "TOMSP",
+  "EmpleadoID": "6",
+  "FechaFactura": "1996-07-05 00:00:00",
+  "FechaRegistro": "1996-08-16 00:00:00",
+  "FechaEnvio": "1996-07-10 00:00:00",
+  "EnvioVia": "1",
+  "Transporte": "11.61",
+  "NombreEnvio": "Toms Spezialit ten",
+  "DireccionEnvio": "Luisenstr. 48",
+  "CiudadEnvio": "M nster",
+  "RegionEnvio": "",
+  "CodigoPostalEnvio": "44087",
+  "PaisEnvio": "Germany"
+},{
+  "_id": {
+    "$oid": "64a87c15635e470a662e68ca"
+  },
+  "FacturaID": "10250",
+  "ClienteID": "HANAR",
+  "EmpleadoID": "4",
+  "FechaFactura": "1996-07-08 00:00:00",
+  "FechaRegistro": "1996-08-05 00:00:00",
+  "FechaEnvio": "1996-07-12 00:00:00",
+  "EnvioVia": "2",
+  "Transporte": "65.83",
+  "NombreEnvio": "Hanari Carnes",
+  "DireccionEnvio": "Rua do Pa o, 67",
+  "CiudadEnvio": "Rio de Janeiro",
+  "RegionEnvio": "RJ",
+  "CodigoPostalEnvio": "05454-876",
+  "PaisEnvio": "Brazil"
+},{
+  "_id": {
+    "$oid": "64a87c15635e470a662e68cb"
+  },
+  "FacturaID": "10251",
+  "ClienteID": "VICTE",
+  "EmpleadoID": "3",
+  "FechaFactura": "1996-07-08 00:00:00",
+  "FechaRegistro": "1996-08-05 00:00:00",
+  "FechaEnvio": "1996-07-15 00:00:00",
+  "EnvioVia": "1",
+  "Transporte": "41.34",
+  "NombreEnvio": "Victuailles en stock",
+  "DireccionEnvio": "2, rue du Commerce",
+  "CiudadEnvio": "Lyon",
+  "RegionEnvio": "",
+  "CodigoPostalEnvio": "69004",
+  "PaisEnvio": "France"
+},{
+  "_id": {
+    "$oid": "64a87c15635e470a662e68cc"
+  },
+  "FacturaID": "10252",
+  "ClienteID": "SUPRD",
+  "EmpleadoID": "4",
+  "FechaFactura": "1996-07-09 00:00:00",
+  "FechaRegistro": "1996-08-06 00:00:00",
+  "FechaEnvio": "1996-07-11 00:00:00",
+  "EnvioVia": "2",
+  "Transporte": "51.3",
+  "NombreEnvio": "Supr mes d lices",
+  "DireccionEnvio": "Boulevard Tirou, 255",
+  "CiudadEnvio": "Charleroi",
+  "RegionEnvio": "",
+  "CodigoPostalEnvio": "B-6000",
+  "PaisEnvio": "Belgium"
+},{
+  "_id": {
+    "$oid": "64a87c15635e470a662e68cd"
+  },
+  "FacturaID": "10253",
+  "ClienteID": "HANAR",
+  "EmpleadoID": "3",
+  "FechaFactura": "1996-07-10 00:00:00",
+  "FechaRegistro": "1996-07-24 00:00:00",
+  "FechaEnvio": "1996-07-16 00:00:00",
+  "EnvioVia": "2",
+  "Transporte": "58.17",
+  "NombreEnvio": "Hanari Carnes",
+  "DireccionEnvio": "Rua do Pa o, 67",
+  "CiudadEnvio": "Rio de Janeiro",
+  "RegionEnvio": "RJ",
+  "CodigoPostalEnvio": "05454-876",
+  "PaisEnvio": "Brazil"
+},{
+  "_id": {
+    "$oid": "64a87c15635e470a662e68ce"
+  },
+  "FacturaID": "10254",
+  "ClienteID": "CHOPS",
+  "EmpleadoID": "5",
+  "FechaFactura": "1996-07-11 00:00:00",
+  "FechaRegistro": "1996-08-08 00:00:00",
+  "FechaEnvio": "1996-07-23 00:00:00",
+  "EnvioVia": "2",
+  "Transporte": "22.98",
+  "NombreEnvio": "Chop-suey Chinese",
+  "DireccionEnvio": "Hauptstr. 31",
+  "CiudadEnvio": "Bern",
+  "RegionEnvio": "",
+  "CodigoPostalEnvio": "3012",
+  "PaisEnvio": "Switzerland"
+}]

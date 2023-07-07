@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "64a88580635e470a662e68ea"
+  },
+  "UbicacionID": "10019",
+  "UbicacionDescripcion": "New York",
+  "RegionesID": "1"
+},{
+  "_id": {
+    "$oid": "64a885fb635e470a662e68eb"
+  },
+  "UbicacionID": "10038",
+  "UbicacionDescripcion": "New York",
+  "RegionesID": "1"
+},{
+  "_id": {
+    "$oid": "64a885fb635e470a662e68ec"
+  },
+  "UbicacionID": "11747",
+  "UbicacionDescripcion": "Mellvile",
+  "RegionesID": "1"
+},{
+  "_id": {
+    "$oid": "64a885fb635e470a662e68ed"
+  },
+  "UbicacionID": "14450",
+  "UbicacionDescripcion": "Fairport",
+  "RegionesID": "1"
+},{
+  "_id": {
+    "$oid": "64a885fb635e470a662e68ee"
+  },
+  "UbicacionID": "1581",
+  "UbicacionDescripcion": "Westboro",
+  "RegionesID": "1"
+},{
+  "_id": {
+    "$oid": "64a885fb635e470a662e68ef"
+  },
+  "UbicacionID": "1730",
+  "UbicacionDescripcion": "Bedford",
+  "RegionesID": "1"
+},{
+  "_id": {
+    "$oid": "64a885fb635e470a662e68f0"
+  },
+  "UbicacionID": "1833",
+  "UbicacionDescripcion": "Georgetow",
+  "RegionesID": "1"
+}]

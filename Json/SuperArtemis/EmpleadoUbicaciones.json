@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "64a87841635e470a662e68ba"
+  },
+  "EmpleadoID": "5",
+  "UbicacionID": "10019"
+},{
+  "_id": {
+    "$oid": "64a878b2635e470a662e68bb"
+  },
+  "EmpleadoID": "5",
+  "UbicacionID": "10038"
+},{
+  "_id": {
+    "$oid": "64a878b2635e470a662e68bc"
+  },
+  "EmpleadoID": "5",
+  "UbicacionID": "11747"
+},{
+  "_id": {
+    "$oid": "64a878b2635e470a662e68bd"
+  },
+  "EmpleadoID": "5",
+  "UbicacionID": "14450"
+},{
+  "_id": {
+    "$oid": "64a878b2635e470a662e68be"
+  },
+  "EmpleadoID": "2",
+  "UbicacionID": "1581"
+},{
+  "_id": {
+    "$oid": "64a878b2635e470a662e68bf"
+  },
+  "EmpleadoID": "2",
+  "UbicacionID": "1730"
+},{
+  "_id": {
+    "$oid": "64a878b2635e470a662e68c0"
+  },
+  "EmpleadoID": "2",
+  "UbicacionID": "1833"
+}]

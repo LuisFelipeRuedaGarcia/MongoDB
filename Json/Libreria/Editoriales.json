@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "64a863ab635e470a662e688d"
+  },
+  "nombre": "Penguin Random House",
+  "pais": "Estados Unidos",
+  "fundacion": 2013,
+  "libros_publicados": [
+    "1984",
+    "Cien años de soledad",
+    "Don Quijote de la Mancha"
+  ]
+},{
+  "_id": {
+    "$oid": "64a863ab635e470a662e688e"
+  },
+  "nombre": "HarperCollins",
+  "pais": "Reino Unido",
+  "fundacion": 1817,
+  "libros_publicados": [
+    "To Kill a Mockingbird",
+    "The Chronicles of Narnia",
+    "The Hobbit"
+  ]
+},{
+  "_id": {
+    "$oid": "64a863ab635e470a662e688f"
+  },
+  "nombre": "Grupo Planeta",
+  "pais": "España",
+  "fundacion": 1949,
+  "libros_publicados": [
+    "La sombra del viento",
+    "Los pilares de la Tierra",
+    "El código Da Vinci"
+  ]
+},{
+  "_id": {
+    "$oid": "64a863ab635e470a662e6890"
+  },
+  "nombre": "Editorial Santillana",
+  "pais": "España",
+  "fundacion": 1960,
+  "libros_publicados": [
+    "Donde los árboles cantan",
+    "El alquimista",
+    "El principito"
+  ]
+},{
+  "_id": {
+    "$oid": "64a863ab635e470a662e6891"
+  },
+  "nombre": "Simon & Schuster",
+  "pais": "Estados Unidos",
+  "fundacion": 1924,
+  "libros_publicados": [
+    "The Great Gatsby",
+    "The Catcher in the Rye",
+    "The Fault in Our Stars"
+  ]
+},{
+  "_id": {
+    "$oid": "64a863ab635e470a662e6892"
+  },
+  "nombre": "Gallimard",
+  "pais": "Francia",
+  "fundacion": 1911,
+  "libros_publicados": [
+    "À la recherche du temps perdu",
+    "Le Petit Prince",
+    "Les Misérables"
+  ]
+},{
+  "_id": {
+    "$oid": "64a863ab635e470a662e6893"
+  },
+  "nombre": "Editorial Anagrama",
+  "pais": "España",
+  "fundacion": 1969,
+  "libros_publicados": [
+    "Rayuela",
+    "El amor en los tiempos del cólera",
+    "2666"
+  ]
+}]

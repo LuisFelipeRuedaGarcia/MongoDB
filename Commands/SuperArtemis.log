@@ -3,6 +3,31 @@ use SuperArtemis;
 show dbs;
 db.Categorias.insertOne({"CategoriaID":"1","CategoriaNombre":"Beverages","Descripcion":"Soft drinks, coffees, teas, beers, and ales","Imagen":"Beverages.jpg"});
 
+db.Clientes.insertOne({"ClienteID":"ALFKI","Compania":"Alfreds Futterkiste","Contacto":"Maria Anders","Titulo":"Sales Representative","Direccion":"Obere Str. 57","Ciudad":"Berlin","Regiones":"","CodigoPostal":"12209","Pais":"Germany","Telefono":"030-0074321","Fax":"030-0076545"});
+
+db.Correos.insertOne({"CorreoID":"1","Compania":"Speedy Express","Telefono":"(503) 555-9831"});
+
+db.Empleados.insertOne({"EmpleadoID":"1","Apellido":"Davolio","Nombre":"Nancy","Titulo":"Sales Representative","TituloCortesia":"Ms.","FechaNacimiento":"1948-12-08 00:00:00","FechaContratacion":"1992-05-01 00:00:00","Direccion":"507 - 20th Ave. E. Apt. 2A","Ciudad":"Seattle","Regiones":"WA","CodigoPostal":"98122","Pais":"USA","Telefono":"(206) 555-9857","Extension":"5467","Notas":"Education includes a BA in psychology from Colorado State University in 1970.  She also completed 'The Art of the Cold Call.'  Nancy is a member of Toastmasters International.","Jefe":"2","RutaFoto":"http://accweb/emmployees/davolio.bmp"});
+
+db.EmpleadoUbicaciones.insertOne({"EmpleadoID":"5","UbicacionID":"10019"});
+
+db.FacturaDetalles.insertOne(
+{"FacturaID":"10248","ProductoID":"11","PrecioUnitario":"14","Cantidad":"12","Descuento":"0"});
+
+db.Facturas.insertOne(
+{"FacturaID":"10248","ClienteID":"VINET","EmpleadoID":"5","FechaFactura":"1996-07-04 00:00:00","FechaRegistro":"1996-08-01 00:00:00","FechaEnvio":"1996-07-16 00:00:00","EnvioVia":"3","Transporte":"32.38","NombreEnvio":"Vins et alcools Chevalier","DireccionEnvio":"59 rue de l'Abbaye","CiudadEnvio":"Reims","RegionEnvio":"","CodigoPostalEnvio":"51100","PaisEnvio":"France"});
+
+db.Productos.insertOne(
+{"ProductoID":"1","ProductoNombre":"Chai","ProveedorID":"1","CategoriaID":"1","CantidadPorUnidad":"10 boxes x 20 bags","PrecioUnitario":"18","UnidadesStock":"39","UnidadesPedidas":"0","NivelReorden":"10","Discontinuado":"0"});
+
+db.Proveedores.insertOne(
+{"ProveedorID":"1","Compania":"Exotic Liquids","Contacto":"Charlotte Cooper","Titulo":"Purchasing Manager","Direccion":"49 Gilbert St.","Ciudad":"London","Regiones":"","CodigoPostal":"EC1 4SD","Pais":"UK","Telefono":"(171) 555-2222","Fax":"","Pagina":""});
+
+db.Ubicaciones.insertOne(
+{"UbicacionID":"10019","UbicacionDescripcion":"New York","RegionesID":"1"});
+
+
+
 db.Categorias.insertMany([
 {"CategoriaID":"2","CategoriaNombre":"Condiments","Descripcion":"Sweet and savory sauces, relishes, spreads, and seasonings","Imagen":"Condiments.jpg"},
 {"CategoriaID":"3","CategoriaNombre":"Confections","Descripcion":"Desserts, candies, and sweet breads","Imagen":"Confections.jpg"},
@@ -12,17 +37,101 @@ db.Categorias.insertMany([
 {"CategoriaID":"7","CategoriaNombre":"Produce","Descripcion":"Dried fruit and bean curd","Imagen":"produce.jpg"}
 ]);
 
-db.Clientes.insertOne({"ClienteID":"ALFKI","Compania":"Alfreds Futterkiste","Contacto":"Maria Anders","Titulo":"Sales Representative","Direccion":"Obere Str. 57","Ciudad":"Berlin","Regiones":"","CodigoPostal":"12209","Pais":"Germany","Telefono":"030-0074321","Fax":"030-0076545"});
+
+db.Categorias.find();
 
 db.Clientes.insertMany([
-{"ClienteID":"ANATR","Compania":"Ana Trujillo Emparedados y helados","Contacto":"Ana Trujillo","Titulo":"Owner","Direccion":"Avda. de la Constitución 2222","Ciudad":"México D.F.","Regiones":"","CodigoPostal":"05021","Pais":"Mexico","Telefono":"(5) 555-4729","Fax":"(5) 555-3745"},
-{"ClienteID":"ANTON","Compania":"Antonio Moreno Taquería","Contacto":"Antonio Moreno","Titulo":"Owner","Direccion":"Mataderos  2312","Ciudad":"México D.F.","Regiones":"","CodigoPostal":"05023","Pais":"Mexico","Telefono":"(5) 555-3932","Fax":""},
+{"ClienteID":"ANATR","Compania":"Ana Trujillo Emparedados y helados","Contacto":"Ana Trujillo","Titulo":"Owner","Direccion":"Avda. de la Constituci?n 2222","Ciudad":"M?xico D.F.","Regiones":"","CodigoPostal":"05021","Pais":"Mexico","Telefono":"(5) 555-4729","Fax":"(5) 555-3745"},
+{"ClienteID":"ANTON","Compania":"Antonio Moreno Taquer?a","Contacto":"Antonio Moreno","Titulo":"Owner","Direccion":"Mataderos  2312","Ciudad":"M?xico D.F.","Regiones":"","CodigoPostal":"05023","Pais":"Mexico","Telefono":"(5) 555-3932","Fax":""},
 {"ClienteID":"AROUT","Compania":"Around the Horn","Contacto":"Thomas Hardy","Titulo":"Sales Representative","Direccion":"120 Hanover Sq.","Ciudad":"London","Regiones":"","CodigoPostal":"WA1 1DP","Pais":"UK","Telefono":"(171) 555-7788","Fax":"(171) 555-6750"},
-{"ClienteID":"BERGS","Compania":"Berglunds snabbkóp","Contacto":"Christina Berglund","Titulo":"Order Administrator","Direccion":"Berguvsvágen  8","Ciudad":"Luleá","Regiones":"","CodigoPostal":"S-958 22","Pais":"Sweden","Telefono":"0921-12 34 65","Fax":"0921-12 34 67"},
+{"ClienteID":"BERGS","Compania":"Berglunds snabbk?p","Contacto":"Christina Berglund","Titulo":"Order Administrator","Direccion":"Berguvsv?gen  8","Ciudad":"Lule?","Regiones":"","CodigoPostal":"S-958 22","Pais":"Sweden","Telefono":"0921-12 34 65","Fax":"0921-12 34 67"},
 {"ClienteID":"BLAUS","Compania":"Blauer See Delikatessen","Contacto":"Hanna Moos","Titulo":"Sales Representative","Direccion":"Forsterstr. 57","Ciudad":"Mannheim","Regiones":"","CodigoPostal":"68306","Pais":"Germany","Telefono":"0621-08460","Fax":"0621-08924"},
-{"ClienteID":"BLONP","Compania":"Blondesddsl páre et fils","Contacto":"Frádárique Citeaux","Titulo":"Marketing Manager","Direccion":"24, place Kláber","Ciudad":"Strasbourg","Regiones":"","CodigoPostal":"67000","Pais":"France","Telefono":"88.60.15.31","Fax":"88.60.15.32"}
+{"ClienteID":"BLONP","Compania":"Blondesddsl p?re et fils","Contacto":"Fr?d?rique Citeaux","Titulo":"Marketing Manager","Direccion":"24, place Kl?ber","Ciudad":"Strasbourg","Regiones":"","CodigoPostal":"67000","Pais":"France","Telefono":"88.60.15.31","Fax":"88.60.15.32"}
 ]);
 
 db.Clientes.find();
 
+db.Correos.insertMany([
+{"CorreoID":"2","Compania":"United Package","Telefono":"(503) 555-3199"},
+{"CorreoID":"3","Compania":"Federal Shipping","Telefono":"(503) 555-9931"},
+{"CorreoID":"4","Compania":"Atlantic Transport Line","Telefono":"(503) 555-5555"},
+{"CorreoID":"5","Compania":"UPS","Telefono":"(503) 441-6789"},
+{"CorreoID":"6","Compania":"DB Schenker","Telefono":"unknown"}
+]);
 
+db.Correos.find();
+
+db.Empleados.insertMany([
+{"EmpleadoID":"2","Apellido":"Fuller","Nombre":"Andrew","Titulo":"Vice President, Sales","TituloCortesia":"Dr.","FechaNacimiento":"1952-02-19 00:00:00","FechaContratacion":"1992-08-14 00:00:00","Direccion":"908 W. Capital Way","Ciudad":"Tacoma","Regiones":"WA","CodigoPostal":"98401","Pais":"USA","Telefono":"(206) 555-9482","Extension":"3457","Notas":"Andrew received his BTS commercial in 1974 and a Ph.D. in international marketing from the University of Dallas in 1981.  He is fluent in French and Italian and reads German.  He joined the company as a sales representative, was promoted to sales manager in January 1992 and to vice president of sales in March 1993.  Andrew is a member of the Sales Management Roundtable, the Seattle Chamber of Commerce, and the Pacific Rim Importers Association.","RutaFoto":"http://accweb/emmployees/fuller.bmp"},
+{"EmpleadoID":"3","Apellido":"Leverling","Nombre":"Janet","Titulo":"Sales Representative","TituloCortesia":"Ms.","FechaNacimiento":"1963-08-30 00:00:00","FechaContratacion":"1992-04-01 00:00:00","Direccion":"722 Moss Bay Blvd.","Ciudad":"Kirkland","Regiones":"WA","CodigoPostal":"98033","Pais":"USA","Telefono":"(206) 555-3412","Extension":"3355","Notas":"Janet has a BS degree in chemistry from Boston College (1984).  She has also completed a certificate program in food retailing management.  Janet was hired as a sales associate in 1991 and promoted to sales representative in February 1992.","Jefe":"2","RutaFoto":"http://accweb/emmployees/leverling.bmp"},
+{"EmpleadoID":"4","Apellido":"Peacock","Nombre":"Margaret","Titulo":"Sales Representative","TituloCortesia":"Mrs.","FechaNacimiento":"1937-09-19 00:00:00","FechaContratacion":"1993-05-03 00:00:00","Direccion":"4110 Old Redmond Rd.","Ciudad":"Redmond","Regiones":"WA","CodigoPostal":"98052","Pais":"USA","Telefono":"(206) 555-8122","Extension":"5176","Notas":"Margaret holds a BA in English literature from Concordia College (1958) and an MA from the American Institute of Culinary Arts (1966).  She was assigned to the London office temporarily from July through November 1992.","Jefe":"2","RutaFoto":"http://accweb/emmployees/peacock.bmp"},
+{"EmpleadoID":"5","Apellido":"Buchanan","Nombre":"Steven","Titulo":"Sales Manager","TituloCortesia":"Mr.","FechaNacimiento":"1955-03-04 00:00:00","FechaContratacion":"1993-10-17 00:00:00","Direccion":"14 Garrett Hill","Ciudad":"London","Regiones":"","CodigoPostal":"SW1 8JR","Pais":"UK","Telefono":"(71) 555-4848","Extension":"3453","Notas":"Steven Buchanan graduated from St. Andrews University, Scotland, with a BSC degree in 1976.  Upon joining the company as a sales representative in 1992, he spent 6 months in an orientation program at the Seattle office and then returned to his permanent post in London.  He was promoted to sales manager in March 1993.  Mr. Buchanan has completed the courses 'Successful Telemarketing' and 'International Sales Management.'  He is fluent in French.","Jefe":"2","RutaFoto":"http://accweb/emmployees/buchanan.bmp"},
+{"EmpleadoID":"6","Apellido":"Suyama","Nombre":"Michael","Titulo":"Sales Representative","TituloCortesia":"Mr.","FechaNacimiento":"1963-07-02 00:00:00","FechaContratacion":"1993-10-17 00:00:00","Direccion":"Coventry House  Miner Rd.","Ciudad":"London","Regiones":"","CodigoPostal":"EC2 7JR","Pais":"UK","Telefono":"(71) 555-7773","Extension":"428","Notas":"Michael is a graduate of Sussex University (MA, economics, 1983) and the University of California at Los Angeles (MBA, marketing, 1986).  He has also taken the courses 'Multi-Cultural Selling' and 'Time Management for the Sales Professional.'  He is fluent in Japanese and can read and write French, Portuguese, and Spanish.","Jefe":"5","RutaFoto":"http://accweb/emmployees/davolio.bmp"},
+{"EmpleadoID":"7","Apellido":"King","Nombre":"Robert","Titulo":"Sales Representative","TituloCortesia":"Mr.","FechaNacimiento":"1960-05-29 00:00:00","FechaContratacion":"1994-01-02 00:00:00","Direccion":"Edgeham Hollow  Winchester Way","Ciudad":"London","Regiones":"","CodigoPostal":"RG1 9SP","Pais":"UK","Telefono":"(71) 555-5598","Extension":"465","Notas":"Robert King served in the Peace Corps and traveled extensively before completing his degree in English at the University of Michigan in 1992, the year he joined the company.  After completing a course entitled 'Selling in Europe,' he was transferred to the London office in March 1993.","Jefe":"5","RutaFoto":"http://accweb/emmployees/davolio.bmp"}
+]);
+
+db.Empleados.find();
+
+db.EmpleadoUbicaciones.insertMany([
+{"EmpleadoID":"5","UbicacionID":"10038"},
+{"EmpleadoID":"5","UbicacionID":"11747"},
+{"EmpleadoID":"5","UbicacionID":"14450"},
+{"EmpleadoID":"2","UbicacionID":"1581"},
+{"EmpleadoID":"2","UbicacionID":"1730"},
+{"EmpleadoID":"2","UbicacionID":"1833"}
+]);
+
+db.EmpleadoUbicaciones.find();
+
+db.FacturaDetalles.insertMany([
+{"FacturaID":"10248","ProductoID":"42","PrecioUnitario":"9.8","Cantidad":"10","Descuento":"0"},
+{"FacturaID":"10248","ProductoID":"72","PrecioUnitario":"34.8","Cantidad":"5","Descuento":"0"},
+{"FacturaID":"10249","ProductoID":"14","PrecioUnitario":"18.6","Cantidad":"9","Descuento":"0"},
+{"FacturaID":"10249","ProductoID":"51","PrecioUnitario":"42.4","Cantidad":"40","Descuento":"0"},
+{"FacturaID":"10250","ProductoID":"41","PrecioUnitario":"7.7","Cantidad":"10","Descuento":"0"},
+{"FacturaID":"10250","ProductoID":"51","PrecioUnitario":"42.4","Cantidad":"35","Descuento":"0.15000001"}]);
+
+db.FacturaDetalles.find();
+
+db.Facturas.insertMany([
+{"FacturaID":"10249","ClienteID":"TOMSP","EmpleadoID":"6","FechaFactura":"1996-07-05 00:00:00","FechaRegistro":"1996-08-16 00:00:00","FechaEnvio":"1996-07-10 00:00:00","EnvioVia":"1","Transporte":"11.61","NombreEnvio":"Toms Spezialit ten","DireccionEnvio":"Luisenstr. 48","CiudadEnvio":"M nster","RegionEnvio":"","CodigoPostalEnvio":"44087","PaisEnvio":"Germany"},
+{"FacturaID":"10250","ClienteID":"HANAR","EmpleadoID":"4","FechaFactura":"1996-07-08 00:00:00","FechaRegistro":"1996-08-05 00:00:00","FechaEnvio":"1996-07-12 00:00:00","EnvioVia":"2","Transporte":"65.83","NombreEnvio":"Hanari Carnes","DireccionEnvio":"Rua do Pa o, 67","CiudadEnvio":"Rio de Janeiro","RegionEnvio":"RJ","CodigoPostalEnvio":"05454-876","PaisEnvio":"Brazil"},
+{"FacturaID":"10251","ClienteID":"VICTE","EmpleadoID":"3","FechaFactura":"1996-07-08 00:00:00","FechaRegistro":"1996-08-05 00:00:00","FechaEnvio":"1996-07-15 00:00:00","EnvioVia":"1","Transporte":"41.34","NombreEnvio":"Victuailles en stock","DireccionEnvio":"2, rue du Commerce","CiudadEnvio":"Lyon","RegionEnvio":"","CodigoPostalEnvio":"69004","PaisEnvio":"France"},
+{"FacturaID":"10252","ClienteID":"SUPRD","EmpleadoID":"4","FechaFactura":"1996-07-09 00:00:00","FechaRegistro":"1996-08-06 00:00:00","FechaEnvio":"1996-07-11 00:00:00","EnvioVia":"2","Transporte":"51.3","NombreEnvio":"Supr mes d lices","DireccionEnvio":"Boulevard Tirou, 255","CiudadEnvio":"Charleroi","RegionEnvio":"","CodigoPostalEnvio":"B-6000","PaisEnvio":"Belgium"},
+{"FacturaID":"10253","ClienteID":"HANAR","EmpleadoID":"3","FechaFactura":"1996-07-10 00:00:00","FechaRegistro":"1996-07-24 00:00:00","FechaEnvio":"1996-07-16 00:00:00","EnvioVia":"2","Transporte":"58.17","NombreEnvio":"Hanari Carnes","DireccionEnvio":"Rua do Pa o, 67","CiudadEnvio":"Rio de Janeiro","RegionEnvio":"RJ","CodigoPostalEnvio":"05454-876","PaisEnvio":"Brazil"},
+{"FacturaID":"10254","ClienteID":"CHOPS","EmpleadoID":"5","FechaFactura":"1996-07-11 00:00:00","FechaRegistro":"1996-08-08 00:00:00","FechaEnvio":"1996-07-23 00:00:00","EnvioVia":"2","Transporte":"22.98","NombreEnvio":"Chop-suey Chinese","DireccionEnvio":"Hauptstr. 31","CiudadEnvio":"Bern","RegionEnvio":"","CodigoPostalEnvio":"3012","PaisEnvio":"Switzerland"}
+]);
+
+db.Facturas.find();
+
+
+db.Productos.insertMany([
+{"ProductoID":"2","ProductoNombre":"Chang","ProveedorID":"1","CategoriaID":"1","CantidadPorUnidad":"24 - 12 oz bottles","PrecioUnitario":"19","UnidadesStock":"17","UnidadesPedidas":"40","NivelReorden":"25","Discontinuado":"0"},
+{"ProductoID":"3","ProductoNombre":"Aniseed Syrup","ProveedorID":"1","CategoriaID":"2","CantidadPorUnidad":"12 - 550 ml bottles","PrecioUnitario":"10","UnidadesStock":"13","UnidadesPedidas":"70","NivelReorden":"25","Discontinuado":"0"},
+{"ProductoID":"4","ProductoNombre":"Chef Anton's Cajun Seasoning","ProveedorID":"2","CategoriaID":"2","CantidadPorUnidad":"48 - 6 oz jars","PrecioUnitario":"22","UnidadesStock":"53","UnidadesPedidas":"0","NivelReorden":"0","Discontinuado":"0"},
+{"ProductoID":"5","ProductoNombre":"Chef Anton's Gumbo Mix","ProveedorID":"2","CategoriaID":"2","CantidadPorUnidad":"36 boxes","PrecioUnitario":"21.35","UnidadesStock":"0","UnidadesPedidas":"0","NivelReorden":"0","Discontinuado":"0"},
+{"ProductoID":"6","ProductoNombre":"Grandma's Boysenberry Spread","ProveedorID":"3","CategoriaID":"2","CantidadPorUnidad":"12 - 8 oz jars","PrecioUnitario":"25","UnidadesStock":"120","UnidadesPedidas":"0","NivelReorden":"25","Discontinuado":"0"},
+{"ProductoID":"7","ProductoNombre":"Uncle Bob's Organic Dried Pears","ProveedorID":"3","CategoriaID":"7","CantidadPorUnidad":"12 - 1 lb pkgs.","PrecioUnitario":"30","UnidadesStock":"15","UnidadesPedidas":"0","NivelReorden":"10","Discontinuado":"0"}
+]);
+
+db.Productos.find();
+
+db.Proveedores.insertMany([
+{"ProveedorID":"2","Compania":"New Orleans Cajun Delights","Contacto":"Shelley Burke","Titulo":"Order Administrator","Direccion":"P.O. Box 78934","Ciudad":"New Orleans","Regiones":"LA","CodigoPostal":"70117","Pais":"USA","Telefono":"(100) 555-4822","Fax":"","Pagina":"#CAJUN.HTM#"},
+{"ProveedorID":"3","Compania":"Grandma Kelly's Homestead","Contacto":"Regina Murphy","Titulo":"Sales Representative","Direccion":"707 Oxford Rd.","Ciudad":"Ann Arbor","Regiones":"MI","CodigoPostal":"48104","Pais":"USA","Telefono":"(313) 555-5735","Fax":"(313) 555-3349","Pagina":""},
+{"ProveedorID":"4","Compania":"Tokyo Traders","Contacto":"Yoshi Nagase","Titulo":"Marketing Manager","Direccion":"9-8 Sekimai Musashino-shi","Ciudad":"Tokyo","Regiones":"","CodigoPostal":"100","Pais":"Japan","Telefono":"(03) 3555-5011","Fax":"","Pagina":""},
+{"ProveedorID":"5","Compania":"Cooperativa de Quesos 'Las Cabras'","Contacto":"Antonio del Valle Saavedra","Titulo":"Export Administrator","Direccion":"Calle del Rosal 4","Ciudad":"Oviedo","Regiones":"Asturias","CodigoPostal":"33007","Pais":"Spain","Telefono":"(98) 598 76 54","Fax":"","Pagina":""},
+{"ProveedorID":"6","Compania":"Mayumi's","Contacto":"Mayumi Ohno","Titulo":"Marketing Representative","Direccion":"92 Setsuko Chuo-ku","Ciudad":"Osaka","Regiones":"","CodigoPostal":"545","Pais":"Japan","Telefono":"(06) 431-7877","Fax":"","Pagina":"Mayumi's (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/mayumi.htm#"},
+{"ProveedorID":"7","Compania":"Pavlova, Ltd.","Contacto":"Ian Devling","Titulo":"Marketing Manager","Direccion":"74 Rose St. Moonie Ponds","Ciudad":"Melbourne","Regiones":"Victoria","CodigoPostal":"3058","Pais":"Australia","Telefono":"(03) 444-2343","Fax":"(03) 444-6588","Pagina":""}
+]);
+
+db.Proveedores.find();
+
+db.Ubicaciones.insertMany([
+{"UbicacionID":"10038","UbicacionDescripcion":"New York","RegionesID":"1"},
+{"UbicacionID":"11747","UbicacionDescripcion":"Mellvile","RegionesID":"1"},
+{"UbicacionID":"14450","UbicacionDescripcion":"Fairport","RegionesID":"1"},
+{"UbicacionID":"1581","UbicacionDescripcion":"Westboro","RegionesID":"1"},
+{"UbicacionID":"1730","UbicacionDescripcion":"Bedford","RegionesID":"1"},
+{"UbicacionID":"1833","UbicacionDescripcion":"Georgetow","RegionesID":"1"}
+]);

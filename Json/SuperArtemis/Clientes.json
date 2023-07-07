@@ -1,6 +1,6 @@
 [{
   "_id": {
-    "$oid": "64a81ffb18f400e77c34f288"
+    "$oid": "64a86ccb635e470a662e689b"
   },
   "ClienteID": "ALFKI",
   "Compania": "Alfreds Futterkiste",
@@ -15,14 +15,14 @@
   "Fax": "030-0076545"
 },{
   "_id": {
-    "$oid": "64a8209e18f400e77c34f289"
+    "$oid": "64a86cfa635e470a662e689d"
   },
   "ClienteID": "ANATR",
   "Compania": "Ana Trujillo Emparedados y helados",
   "Contacto": "Ana Trujillo",
   "Titulo": "Owner",
-  "Direccion": "Avda. de la Constitución 2222",
-  "Ciudad": "México D.F.",
+  "Direccion": "Avda. de la Constituci?n 2222",
+  "Ciudad": "M?xico D.F.",
   "Regiones": "",
   "CodigoPostal": "05021",
   "Pais": "Mexico",
@@ -30,14 +30,14 @@
   "Fax": "(5) 555-3745"
 },{
   "_id": {
-    "$oid": "64a8209e18f400e77c34f28a"
+    "$oid": "64a86cfa635e470a662e689e"
   },
   "ClienteID": "ANTON",
-  "Compania": "Antonio Moreno Taquería",
+  "Compania": "Antonio Moreno Taquer?a",
   "Contacto": "Antonio Moreno",
   "Titulo": "Owner",
   "Direccion": "Mataderos  2312",
-  "Ciudad": "México D.F.",
+  "Ciudad": "M?xico D.F.",
   "Regiones": "",
   "CodigoPostal": "05023",
   "Pais": "Mexico",
@@ -45,7 +45,7 @@
   "Fax": ""
 },{
   "_id": {
-    "$oid": "64a8209e18f400e77c34f28b"
+    "$oid": "64a86cfa635e470a662e689f"
   },
   "ClienteID": "AROUT",
   "Compania": "Around the Horn",
@@ -60,14 +60,14 @@
   "Fax": "(171) 555-6750"
 },{
   "_id": {
-    "$oid": "64a8209e18f400e77c34f28c"
+    "$oid": "64a86cfa635e470a662e68a0"
   },
   "ClienteID": "BERGS",
-  "Compania": "Berglunds snabbkóp",
+  "Compania": "Berglunds snabbk?p",
   "Contacto": "Christina Berglund",
   "Titulo": "Order Administrator",
-  "Direccion": "Berguvsvágen  8",
-  "Ciudad": "Luleá",
+  "Direccion": "Berguvsv?gen  8",
+  "Ciudad": "Lule?",
   "Regiones": "",
   "CodigoPostal": "S-958 22",
   "Pais": "Sweden",
@@ -75,7 +75,7 @@
   "Fax": "0921-12 34 67"
 },{
   "_id": {
-    "$oid": "64a8209e18f400e77c34f28d"
+    "$oid": "64a86cfa635e470a662e68a1"
   },
   "ClienteID": "BLAUS",
   "Compania": "Blauer See Delikatessen",
@@ -90,13 +90,13 @@
   "Fax": "0621-08924"
 },{
   "_id": {
-    "$oid": "64a8209e18f400e77c34f28e"
+    "$oid": "64a86cfa635e470a662e68a2"
   },
   "ClienteID": "BLONP",
-  "Compania": "Blondesddsl páre et fils",
-  "Contacto": "Frádárique Citeaux",
+  "Compania": "Blondesddsl p?re et fils",
+  "Contacto": "Fr?d?rique Citeaux",
   "Titulo": "Marketing Manager",
-  "Direccion": "24, place Kláber",
+  "Direccion": "24, place Kl?ber",
   "Ciudad": "Strasbourg",
   "Regiones": "",
   "CodigoPostal": "67000",

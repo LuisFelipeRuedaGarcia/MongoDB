@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "64a8742b635e470a662e68b4"
+  },
+  "CorreoID": "1",
+  "Compania": "Speedy Express",
+  "Telefono": "(503) 555-9831"
+},{
+  "_id": {
+    "$oid": "64a87436635e470a662e68b5"
+  },
+  "CorreoID": "2",
+  "Compania": "United Package",
+  "Telefono": "(503) 555-3199"
+},{
+  "_id": {
+    "$oid": "64a87436635e470a662e68b6"
+  },
+  "CorreoID": "3",
+  "Compania": "Federal Shipping",
+  "Telefono": "(503) 555-9931"
+},{
+  "_id": {
+    "$oid": "64a87436635e470a662e68b7"
+  },
+  "CorreoID": "4",
+  "Compania": "Atlantic Transport Line",
+  "Telefono": "(503) 555-5555"
+},{
+  "_id": {
+    "$oid": "64a87436635e470a662e68b8"
+  },
+  "CorreoID": "5",
+  "Compania": "UPS",
+  "Telefono": "(503) 441-6789"
+},{
+  "_id": {
+    "$oid": "64a87436635e470a662e68b9"
+  },
+  "CorreoID": "6",
+  "Compania": "DB Schenker",
+  "Telefono": "unknown"
+}]

@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "64a88207635e470a662e68dd"
+  },
+  "ProveedorID": "1",
+  "Compania": "Exotic Liquids",
+  "Contacto": "Charlotte Cooper",
+  "Titulo": "Purchasing Manager",
+  "Direccion": "49 Gilbert St.",
+  "Ciudad": "London",
+  "Regiones": "",
+  "CodigoPostal": "EC1 4SD",
+  "Pais": "UK",
+  "Telefono": "(171) 555-2222",
+  "Fax": "",
+  "Pagina": ""
+},{
+  "_id": {
+    "$oid": "64a8822d635e470a662e68de"
+  },
+  "ProveedorID": "2",
+  "Compania": "New Orleans Cajun Delights",
+  "Contacto": "Shelley Burke",
+  "Titulo": "Order Administrator",
+  "Direccion": "P.O. Box 78934",
+  "Ciudad": "New Orleans",
+  "Regiones": "LA",
+  "CodigoPostal": "70117",
+  "Pais": "USA",
+  "Telefono": "(100) 555-4822",
+  "Fax": "",
+  "Pagina": "#CAJUN.HTM#"
+},{
+  "_id": {
+    "$oid": "64a8822d635e470a662e68df"
+  },
+  "ProveedorID": "3",
+  "Compania": "Grandma Kelly's Homestead",
+  "Contacto": "Regina Murphy",
+  "Titulo": "Sales Representative",
+  "Direccion": "707 Oxford Rd.",
+  "Ciudad": "Ann Arbor",
+  "Regiones": "MI",
+  "CodigoPostal": "48104",
+  "Pais": "USA",
+  "Telefono": "(313) 555-5735",
+  "Fax": "(313) 555-3349",
+  "Pagina": ""
+},{
+  "_id": {
+    "$oid": "64a8822d635e470a662e68e0"
+  },
+  "ProveedorID": "4",
+  "Compania": "Tokyo Traders",
+  "Contacto": "Yoshi Nagase",
+  "Titulo": "Marketing Manager",
+  "Direccion": "9-8 Sekimai Musashino-shi",
+  "Ciudad": "Tokyo",
+  "Regiones": "",
+  "CodigoPostal": "100",
+  "Pais": "Japan",
+  "Telefono": "(03) 3555-5011",
+  "Fax": "",
+  "Pagina": ""
+},{
+  "_id": {
+    "$oid": "64a8822d635e470a662e68e1"
+  },
+  "ProveedorID": "5",
+  "Compania": "Cooperativa de Quesos 'Las Cabras'",
+  "Contacto": "Antonio del Valle Saavedra",
+  "Titulo": "Export Administrator",
+  "Direccion": "Calle del Rosal 4",
+  "Ciudad": "Oviedo",
+  "Regiones": "Asturias",
+  "CodigoPostal": "33007",
+  "Pais": "Spain",
+  "Telefono": "(98) 598 76 54",
+  "Fax": "",
+  "Pagina": ""
+},{
+  "_id": {
+    "$oid": "64a8822d635e470a662e68e2"
+  },
+  "ProveedorID": "6",
+  "Compania": "Mayumi's",
+  "Contacto": "Mayumi Ohno",
+  "Titulo": "Marketing Representative",
+  "Direccion": "92 Setsuko Chuo-ku",
+  "Ciudad": "Osaka",
+  "Regiones": "",
+  "CodigoPostal": "545",
+  "Pais": "Japan",
+  "Telefono": "(06) 431-7877",
+  "Fax": "",
+  "Pagina": "Mayumi's (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/mayumi.htm#"
+},{
+  "_id": {
+    "$oid": "64a8822d635e470a662e68e3"
+  },
+  "ProveedorID": "7",
+  "Compania": "Pavlova, Ltd.",
+  "Contacto": "Ian Devling",
+  "Titulo": "Marketing Manager",
+  "Direccion": "74 Rose St. Moonie Ponds",
+  "Ciudad": "Melbourne",
+  "Regiones": "Victoria",
+  "CodigoPostal": "3058",
+  "Pais": "Australia",
+  "Telefono": "(03) 444-2343",
+  "Fax": "(03) 444-6588",
+  "Pagina": ""
+}]

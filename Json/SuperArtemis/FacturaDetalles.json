@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "64a87a11635e470a662e68c1"
+  },
+  "FacturaID": "10248",
+  "ProductoID": "11",
+  "PrecioUnitario": "14",
+  "Cantidad": "12",
+  "Descuento": "0"
+},{
+  "_id": {
+    "$oid": "64a884db635e470a662e68e4"
+  },
+  "FacturaID": "10248",
+  "ProductoID": "42",
+  "PrecioUnitario": "9.8",
+  "Cantidad": "10",
+  "Descuento": "0"
+},{
+  "_id": {
+    "$oid": "64a884db635e470a662e68e5"
+  },
+  "FacturaID": "10248",
+  "ProductoID": "72",
+  "PrecioUnitario": "34.8",
+  "Cantidad": "5",
+  "Descuento": "0"
+},{
+  "_id": {
+    "$oid": "64a884db635e470a662e68e6"
+  },
+  "FacturaID": "10249",
+  "ProductoID": "14",
+  "PrecioUnitario": "18.6",
+  "Cantidad": "9",
+  "Descuento": "0"
+},{
+  "_id": {
+    "$oid": "64a884db635e470a662e68e7"
+  },
+  "FacturaID": "10249",
+  "ProductoID": "51",
+  "PrecioUnitario": "42.4",
+  "Cantidad": "40",
+  "Descuento": "0"
+},{
+  "_id": {
+    "$oid": "64a884db635e470a662e68e8"
+  },
+  "FacturaID": "10250",
+  "ProductoID": "41",
+  "PrecioUnitario": "7.7",
+  "Cantidad": "10",
+  "Descuento": "0"
+},{
+  "_id": {
+    "$oid": "64a884db635e470a662e68e9"
+  },
+  "FacturaID": "10250",
+  "ProductoID": "51",
+  "PrecioUnitario": "42.4",
+  "Cantidad": "35",
+  "Descuento": "0.15000001"
+}]
