@@ -96,4 +96,32 @@
   "UnidadesPedidas": "0",
   "NivelReorden": "10",
   "Discontinuado": "0"
+},{
+  "_id": {
+    "$oid": "64a8d030196b3ba0a60a8f88"
+  },
+  "ProductoID": "8",
+  "ProductoNombre": "Northwoods Cranberry Sauce",
+  "ProveedorID": "3",
+  "CategoriaID": "2",
+  "CantidadPorUnidad": "12 - 12 oz jars",
+  "PrecioUnitario": "40",
+  "UnidadesStock": "6",
+  "UnidadesPedidas": "0",
+  "NivelReorden": "0",
+  "Discontinuado": "0"
+},{
+  "_id": {
+    "$oid": "64a8d030196b3ba0a60a8f89"
+  },
+  "ProductoID": "9",
+  "ProductoNombre": "Mishi Kobe Niku",
+  "ProveedorID": "4",
+  "CategoriaID": "6",
+  "CantidadPorUnidad": "18 - 500 g pkgs.",
+  "PrecioUnitario": "97",
+  "UnidadesStock": "29",
+  "UnidadesPedidas": "0",
+  "NivelReorden": "0",
+  "Discontinuado": "0"
 }]

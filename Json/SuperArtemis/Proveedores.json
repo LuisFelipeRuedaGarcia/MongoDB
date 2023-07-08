@@ -110,4 +110,36 @@
   "Telefono": "(03) 444-2343",
   "Fax": "(03) 444-6588",
   "Pagina": ""
+},{
+  "_id": {
+    "$oid": "64a8d17a196b3ba0a60a8f8a"
+  },
+  "ProveedorID": "8",
+  "Compania": "Specialty Biscuits, Ltd.",
+  "Contacto": "Peter Wilson",
+  "Titulo": "Sales Representative",
+  "Direccion": "29 King's Way",
+  "Ciudad": "Manchester",
+  "Regiones": "",
+  "CodigoPostal": "M14 GSD",
+  "Pais": "UK",
+  "Telefono": "(161) 555-4448",
+  "Fax": "",
+  "Pagina": ""
+},{
+  "_id": {
+    "$oid": "64a8d17a196b3ba0a60a8f8b"
+  },
+  "ProveedorID": "9",
+  "Compania": "PB Kn ckebr d AB",
+  "Contacto": "Lars Peterson",
+  "Titulo": "Sales Agent",
+  "Direccion": "Kaloadagatan 13",
+  "Ciudad": "G teborg",
+  "Regiones": "",
+  "CodigoPostal": "S-345 67",
+  "Pais": "Sweden",
+  "Telefono": "031-987 65 43",
+  "Fax": "031-987 65 91",
+  "Pagina": ""
 }]

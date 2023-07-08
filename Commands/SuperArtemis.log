@@ -135,3 +135,34 @@ db.Ubicaciones.insertMany([
 {"UbicacionID":"1730","UbicacionDescripcion":"Bedford","RegionesID":"1"},
 {"UbicacionID":"1833","UbicacionDescripcion":"Georgetow","RegionesID":"1"}
 ]);
+
+db.Ubicaciones.find();
+
+
+
+db.Categorias.insertMany([
+{"CategoriaID":"8","CategoriaNombre":"Seafood","Descripcion":"Seaweed and fish","Imagen":"Seafood.jpg"},
+{"CategoriaID":"9","CategoriaNombre":"Alcoholic Bever","Descripcion":"Beer, wine, distilled spirits, fortified wines, cocktails","Imagen":"alcoholic.jpg"}
+]);
+
+db.Clientes.insertMany([
+{"ClienteID":"BOLID","Compania":"B?lido Comidas preparadas","Contacto":"Mart?n Sommer","Titulo":"Owner","Direccion":"C/ Araquil, 67","Ciudad":"Madrid","Regiones":"","CodigoPostal":"28023","Pais":"Spain","Telefono":"(91) 555 22 82","Fax":"(91) 555 91 99"},
+{"ClienteID":"BONAP","Compania":"Bon app'","Contacto":"Laurence Lebihan","Titulo":"Owner","Direccion":"12, rue des Bouchers","Ciudad":"Marseille","Regiones":"","CodigoPostal":"13008","Pais":"France","Telefono":"91.24.45.40","Fax":"91.24.45.41"}
+]);
+
+db.Empleados.insertMany([
+{"EmpleadoID":"8","Apellido":"Callahan","Nombre":"Laura","Titulo":"Inside Sales Coordinator","TituloCortesia":"Ms.","FechaNacimiento":"1958-01-09 00:00:00","FechaContratacion":"1994-03-05 00:00:00","Direccion":"4726 - 11th Ave. N.E.","Ciudad":"Seattle","Regiones":"WA","CodigoPostal":"98105","Pais":"USA","Telefono":"(206) 555-1189","Extension":"2344","Notas":"Laura received a BA in psychology from the University of Washington.  She has also completed a course in business French.  She reads and writes French.","Jefe":"2","RutaFoto":"http://accweb/emmployees/davolio.bmp"},
+{"EmpleadoID":"9","Apellido":"Dodsworth","Nombre":"Anne","Titulo":"Sales Representative","TituloCortesia":"Ms.","FechaNacimiento":"1966-01-27 00:00:00","FechaContratacion":"1994-11-15 00:00:00","Direccion":"7 Houndstooth Rd.","Ciudad":"London","Regiones":"","CodigoPostal":"WG2 7LT","Pais":"UK","Telefono":"(71) 555-4444","Extension":"452","Notas":"Anne has a BA degree in English from St. Lawrence College.  She is fluent in French and German.","Jefe":"5","RutaFoto":"http://accweb/emmployees/davolio.bmp"}
+]);
+
+
+db.Productos.insertMany([
+{"ProductoID":"8","ProductoNombre":"Northwoods Cranberry Sauce","ProveedorID":"3","CategoriaID":"2","CantidadPorUnidad":"12 - 12 oz jars","PrecioUnitario":"40","UnidadesStock":"6","UnidadesPedidas":"0","NivelReorden":"0","Discontinuado":"0"},
+{"ProductoID":"9","ProductoNombre":"Mishi Kobe Niku","ProveedorID":"4","CategoriaID":"6","CantidadPorUnidad":"18 - 500 g pkgs.","PrecioUnitario":"97","UnidadesStock":"29","UnidadesPedidas":"0","NivelReorden":"0","Discontinuado":"0"}
+]);
+
+db.Proveedores.insertMany([
+{"ProveedorID":"8","Compania":"Specialty Biscuits, Ltd.","Contacto":"Peter Wilson","Titulo":"Sales Representative","Direccion":"29 King's Way","Ciudad":"Manchester","Regiones":"","CodigoPostal":"M14 GSD","Pais":"UK","Telefono":"(161) 555-4448","Fax":"","Pagina":""},
+{"ProveedorID":"9","Compania":"PB Kn ckebr d AB","Contacto":"Lars Peterson","Titulo":"Sales Agent","Direccion":"Kaloadagatan 13","Ciudad":"G teborg","Regiones":"","CodigoPostal":"S-345 67","Pais":"Sweden","Telefono":"031-987 65 43","Fax":"031-987 65 91","Pagina":""}
+]);
+

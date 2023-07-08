@@ -1,6 +1,6 @@
 [{
   "_id": {
-    "$oid": "64a81e2818f400e77c34f281"
+    "$oid": "64a865b7635e470a662e6894"
   },
   "CategoriaID": "1",
   "CategoriaNombre": "Beverages",
@@ -8,7 +8,7 @@
   "Imagen": "Beverages.jpg"
 },{
   "_id": {
-    "$oid": "64a81eb718f400e77c34f282"
+    "$oid": "64a86600635e470a662e6895"
   },
   "CategoriaID": "2",
   "CategoriaNombre": "Condiments",
@@ -16,7 +16,7 @@
   "Imagen": "Condiments.jpg"
 },{
   "_id": {
-    "$oid": "64a81eb718f400e77c34f283"
+    "$oid": "64a86600635e470a662e6896"
   },
   "CategoriaID": "3",
   "CategoriaNombre": "Confections",
@@ -24,7 +24,7 @@
   "Imagen": "Confections.jpg"
 },{
   "_id": {
-    "$oid": "64a81eb718f400e77c34f284"
+    "$oid": "64a86600635e470a662e6897"
   },
   "CategoriaID": "4",
   "CategoriaNombre": "Dairy Productos",
@@ -32,7 +32,7 @@
   "Imagen": "DairyProductos.jpg"
 },{
   "_id": {
-    "$oid": "64a81eb718f400e77c34f285"
+    "$oid": "64a86600635e470a662e6898"
   },
   "CategoriaID": "5",
   "CategoriaNombre": "Cereals",
@@ -40,7 +40,7 @@
   "Imagen": "cereals.jpg"
 },{
   "_id": {
-    "$oid": "64a81eb718f400e77c34f286"
+    "$oid": "64a86600635e470a662e6899"
   },
   "CategoriaID": "6",
   "CategoriaNombre": "Meat",
@@ -48,10 +48,26 @@
   "Imagen": "Meat.jpg"
 },{
   "_id": {
-    "$oid": "64a81eb718f400e77c34f287"
+    "$oid": "64a86600635e470a662e689a"
   },
   "CategoriaID": "7",
   "CategoriaNombre": "Produce",
   "Descripcion": "Dried fruit and bean curd",
   "Imagen": "produce.jpg"
+},{
+  "_id": {
+    "$oid": "64a8b7f7196b3ba0a60a8f84"
+  },
+  "CategoriaID": "8",
+  "CategoriaNombre": "Seafood",
+  "Descripcion": "Seaweed and fish",
+  "Imagen": "Seafood.jpg"
+},{
+  "_id": {
+    "$oid": "64a8b7f7196b3ba0a60a8f85"
+  },
+  "CategoriaID": "9",
+  "CategoriaNombre": "Alcoholic Bever",
+  "Descripcion": "Beer, wine, distilled spirits, fortified wines, cocktails",
+  "Imagen": "alcoholic.jpg"
 }]
